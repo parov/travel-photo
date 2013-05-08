@@ -58,5 +58,6 @@ group :test do
   gem 'rspec-rails'
   gem 'spork'
   gem 'factory_girl_rails'
-  gem 'webrat'
+  #gem 'webrat'
+  gem 'capybara', '1.1.2'
 end
