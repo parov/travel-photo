@@ -39,8 +39,8 @@ class PostsController < ApplicationController
   
   def create
     @post = current_user.posts.build(params[:post])
-    photo = @post.photos.build(:user => current_user)
-    photo.image.download!(request.env['HTTP_ORIGIN'] + params[:attachment])
+    #photo = @post.photos.build(:user => current_user)
+    #photo.image.download!(request.env['HTTP_ORIGIN'] + params[:attachment])
     
     if params[:location].present?
       ref = params[:location].split('|') # format: {id}|{reference}
