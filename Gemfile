@@ -8,7 +8,7 @@ gem 'rails', '3.1.0'
 gem 'sqlite3'
 #gem 'devise'
 gem 'omniauth'
-gem 'cancan'
+#gem 'cancan'
 
 gem 'mini_magick'
 gem 'exifr'

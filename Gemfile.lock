@@ -38,7 +38,6 @@ GEM
     arel (2.2.1)
     bcrypt-ruby (3.0.1)
     builder (3.0.0)
-    cancan (1.6.6)
     carrierwave (0.5.7)
       activesupport (~> 3.0)
     coffee-rails (3.1.1)
@@ -218,7 +217,6 @@ PLATFORMS
 DEPENDENCIES
   annotate
   arel
-  cancan
   carrierwave
   coffee-rails
   exifr
