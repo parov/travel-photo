@@ -20,6 +20,8 @@ gem 'redis'
 gem 'haml'
 gem 'httparty'
 #gem 'sorcery' #jian
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 
 
 # Gems used only for assets and not required
