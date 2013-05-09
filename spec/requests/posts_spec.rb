@@ -1,9 +1,9 @@
 require 'spec_helper'
 
+
 describe "Posts" do
+  subject { page }
   before { visit new_post_path }
 
-  it "should have the content 'wandereyes'" do
-    page.should have_content('wandereyes')
-  end
+  it { subject.should have_content('wandereyes') }
 end
