@@ -13,12 +13,17 @@ describe Post do
   it { should be_valid }
 
   describe "when message is not present" do
-  before { @post.message = " " }
-  it { should_not be_valid }
-end
+  	before { @post.message = " " }
+  	it { should_not be_valid }
+  end
 
   describe "when message is too long" do
     before { @post.message = "a" * 141 }
+    it { should_not be_valid }
+  end
+
+  describe "when user_id is not present" do
+    before { @post.user_id = ""}
     it { should_not be_valid }
   end
 
