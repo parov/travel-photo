@@ -62,4 +62,7 @@ group :test do
   gem 'factory_girl_rails'
   #gem 'webrat'
   gem 'capybara', '1.1.2'
+  gem 'faker'
+  gem 'guard-rspec'
+  gem 'launchy'
 end
